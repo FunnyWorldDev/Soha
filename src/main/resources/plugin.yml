@@ -1,0 +1,11 @@
+name: Soha
+version: '${project.version}'
+main: com.oftx.soha.Soha
+api-version: '1.20'
+commands:
+  soha:
+    description: 投入经济进行梭哈
+    usage: |
+      - /soha put <数量> - 投入指定数量的经济进行梭哈
+      - /soha allin - 全部梭哈
+      - /soha gui - 打开梭哈表单（仅基岩版玩家）
